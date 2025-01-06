@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>로그인이 완료되었습니다.</h1>
+    <p>Unity로 돌아가려면 아래 버튼을 클릭하세요.</p>
+    <a href="unity://login?access_token=YOUR_ACCESS_TOKEN" id="unity-link">Unity 앱으로 돌아가기</a>
+
+    <script>
+ //이 버튼을 클릭하면 Unity 앱으로 리디렉션 됩니다.
+        document.getElementById('unity-link').addEventListener('click', function () {
+            // 추가적인 로직 (예: analytics 추적 등)을 처리할 수 있음.
+        });
+    </script>
+</body>
+</html>
